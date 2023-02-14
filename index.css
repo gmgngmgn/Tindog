@@ -1,0 +1,117 @@
+body {
+    max-width: 600px;
+    min-width: 300px; 
+    background-color: #ffffff; 
+    padding: 0;
+    margin: 0;
+    color: #F8F8F8;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 81px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 84px;
+}
+
+.profile-icon,
+.chat-icon {
+    width: 34px;
+}
+
+.dog-profile {
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin: 0 10px;
+    position: relative;
+}
+
+.profile-img {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.swipe-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cross-btn {
+    width: 26px;
+}
+
+.heart-btn {
+    width: 30px; 
+}
+
+.btn-circle {
+    border-radius: 50%; 
+    width: 92px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 24px 12px;
+    box-shadow: 0px 10px 20px 10px #E9E9EA;
+}
+
+.heart-btn-clicked {
+    background-color: #DBFFF4;
+    box-shadow: 0px 10px 20px 10px #CCF1E6;
+}
+
+.cross-btn-clicked {
+    background-color: #FFE7EF;
+    box-shadow: 0px 10px 20px 10px #EDD9DF;
+}
+
+.dog-info {
+  position: absolute;
+  bottom: 16px;
+  left: 12px;
+  z-index: 1;
+  padding: 10px;
+}
+
+.name-age {
+    font-size: 32px;  
+    font-weight: 600;
+    margin: 0 0 7px 0;
+    padding: 0;
+}
+
+.blurb {
+    color: #B7B7B7;
+    font-size: 24px; 
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.profile-container {
+    position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  z-index: 1;
+  padding: 10px;
+  width: 233px; 
+  transform: rotate(-30deg);
+  display: none;
+}
+
+.heart-clicked {
+    background-color: #DBFFF4;
+}
+
+
